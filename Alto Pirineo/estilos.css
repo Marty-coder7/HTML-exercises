@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-family: 0;
+}
+
+header{
+    background: linear-gradient(to right,green,yellow);
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 0%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+section{
+    background-color: gray;
+    padding: 0%;
+    flex: 3 1 400px;
+}
+
+article{
+    background-color: darkgray;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+aside{
+    background-color: pink;
+    border-radius: 0%;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-content: center;
+    padding: .5em;
+}
+
+img{
+    display: inline-block;
+    border-radius: 0%;
+    box-shadow: 1px;
+    max-width: 100%;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
