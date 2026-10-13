@@ -1,5 +1,6 @@
 body{
     margin:0;
+    padding: 0;
     font-family: 0;
 }
 
@@ -13,12 +14,16 @@ nav{
     background-color: darkslategrey;
     text-align: center;
     padding: 0%;
+    
+    
 }
 
 a{
     color: white;
     text-decoration: none;
-    float: right;
+    float: center;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 
 section{
@@ -32,20 +37,21 @@ article{
     margin: 0%;
     padding: 0%;
     overflow: hidden;
+    
 }
 
 aside{
     background-color: pink;
     border-radius: 0%;
-    flex: 1 1 200px;
+    flex: 1 1 200px;    
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding: .5em;
 }
 
 img{
     display: inline-block;
-    border-radius: 0%;
+    border-radius: 20px;
     box-shadow: 1px;
     max-width: 100%;
 }
@@ -61,4 +67,10 @@ main{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+section a{
+    float: right;
+    color: blue;
+    text-decoration: underline;
 }
